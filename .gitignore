@@ -22,3 +22,36 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# 补充内容
+/target/
+/build/
+/bin/
+*.iml
+.idea/
+.settings/
+.project
+.classpath
+.factorypath
+
+logs/
+*.log.*
+tmp/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+~$*
+.vscode/
+
+.env
+*.properties
+*.keystore
+*.jks
+
+/test-output/
+/coverage/
+
+.gradle/
